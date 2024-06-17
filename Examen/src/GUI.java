@@ -113,6 +113,7 @@ public class GUI extends javax.swing.JFrame {
         // TODO add your handling code here:
         nombre = jTextField1.getText();
         JOptionPane.showMessageDialog(null,"Nombre guardado");
+        jTextField1.setText("");
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void EdadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EdadActionPerformed
@@ -124,13 +125,14 @@ public class GUI extends javax.swing.JFrame {
         else {
             JOptionPane.showMessageDialog(null, "Edad guardada");
         }
+        Edad.setText("");
     }//GEN-LAST:event_EdadActionPerformed
 
     private void ApellidoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ApellidoActionPerformed
         // TODO add your handling code here:
         apellido = Apellido.getText();
         JOptionPane.showMessageDialog(null,"Apellido guardado");
-        
+        Apellido.setText("");
         
     }//GEN-LAST:event_ApellidoActionPerformed
 
